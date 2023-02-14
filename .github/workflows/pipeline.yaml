@@ -16,7 +16,7 @@ env:
   TESTING_STACK_NAME: hello-world-demo-dev
   TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::492917996281:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-OWDHPIP4G8BE
   TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::492917996281:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-PP16F65ZYL85
-  TESTING_ARTIFACTS_BUCKET: hello-world-demo-service-bucket
+  TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-dev-pipeline-artifactsbucket-bodykpz4gv1d
   # If there are functions with "Image" PackageType in your template,
   # uncomment the line below and add "--image-repository ${TESTING_IMAGE_REPOSITORY}" to
   # testing "sam package" and "sam deploy" commands.
@@ -25,7 +25,7 @@ env:
   PROD_STACK_NAME: hello-world-demo-prod
   PROD_PIPELINE_EXECUTION_ROLE: arn:aws:iam::492917996281:role/aws-sam-cli-managed-prod-pip-PipelineExecutionRole-RBZPU65UMWRR
   PROD_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::492917996281:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-1S5K3MVMH5U5T
-  PROD_ARTIFACTS_BUCKET: hello-world-demo-service-bucket-prod
+  PROD_ARTIFACTS_BUCKET: aws-sam-cli-managed-prod-pipeline-artifactsbucket-w8adzb1pfmy3
   # If there are functions with "Image" PackageType in your template,
   # uncomment the line below and add "--image-repository ${PROD_IMAGE_REPOSITORY}" to
   # prod "sam package" and "sam deploy" commands.
